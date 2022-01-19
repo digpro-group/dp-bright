@@ -36,3 +36,15 @@ Once downloaded, extract them from their zip files.
 
     carto dp-bright.mml > dp-bright.xml
 
+### 4. Use in rendering
+
+Update renderd.conf to include something like (update paths for your system).
+
+    [dp-bright]
+    URI=/dp-bright/
+    TILEDIR=/var/lib/mod_tile
+    XML=/home/renderaccount/src/dp-bright/dp-bright/dp-bright.xml
+    HOST=localhost
+    TILESIZE=256
+    MAXZOOM=20
+
