@@ -62,12 +62,12 @@ Map { font-directory: url(./fonts); }
 /* ================================================================== */
 
 @land:              #FCFBE7;
-@water:             #C4DFF6;
-@grass:             #E6F2C1;
+@water:             #ABCED4;
+@grass:             #D3DEBD;
 @beach:             #FFEEC7;
-@park:              #DAF2C1;
+@park:              #CEE0BA;
 @cemetery:          #D6DED2;
-@wooded:            #C3D9AD;
+@wooded:            #BED4AB;
 @agriculture:       #F2E8B6;
 
 @building:          #E4E0E0;
@@ -75,9 +75,11 @@ Map { font-directory: url(./fonts); }
 @school:            #FFF5CC;
 @sports:            #B8E6B8;
 
-@residential:       @land * 0.98;
-@commercial:        @land * 0.97;
-@industrial:        @land * 0.96;
+@residential:       @land * 0.96;
+@commercial:        @land * 0.95;
+@industrial:        @land * 0.94;
+
+
 @parking:           #EEE;
 
 /* ================================================================== */
@@ -93,7 +95,7 @@ Map { font-directory: url(./fonts); }
  *         inner fill (inline).
  */
 
-@motorway_line:     #E65C5C;
+@motorway_line:     #ECB993;
 @motorway_fill:     lighten(@motorway_line,10%);
 @motorway_case:     @motorway_line * 0.9;
 

@@ -1,3 +1,2 @@
-build
-*.pyc
-configure.py
+dp-bright/dp-bright.xml
+dp-bright/shp/

@@ -45,7 +45,7 @@
   }
 }
 
-#place::state[type='state'][zoom>=5][zoom<=10] {
+#place::state[type='state'][zoom>=6][zoom<=10] {
   text-name:'[name]';
   text-face-name:@sans_bold_italic;
   text-placement:point;
@@ -425,19 +425,32 @@
   text-halo-fill:@road_halo;
   text-halo-radius:1;
   text-min-distance:60;
-  text-size:11;
+  text-size:14;
+
 }
 
 #minorroad_label[zoom>14] {
   text-name:'[name]';
   text-face-name:@sans;
   text-placement:line;
-  text-size:9;
+  text-size:12;
   text-fill:@road_text;
   text-halo-fill:@road_halo;
   text-halo-radius:1;
   text-min-distance:60;
-  text-size:11;
+  text-size:14;
+}
+
+#pedestrianstreet_label[zoom>14] {
+  text-name:'[name]';
+  text-face-name:@sans;
+  text-placement:line;
+  text-size:12;
+  text-fill:@road_text;
+  text-halo-fill:@road_halo;
+  text-halo-radius:1;
+  text-min-distance:60;
+  text-size:14;
 }
 
 /* ================================================================== */
